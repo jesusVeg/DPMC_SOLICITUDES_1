@@ -61,7 +61,7 @@ Partial Class form_factibilidad
         Me.frame_servidumbre = New System.Windows.Forms.GroupBox()
         Me.ft_area_servidumbre = New System.Windows.Forms.ComboBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.ft_button_buscar_filtro = New System.Windows.Forms.Button()
+        Me.ft_button_buscar_filtro_1 = New System.Windows.Forms.Button()
         Me.ft_button_buscar_base_clientes = New System.Windows.Forms.Button()
         Me.ft_button_generar_carta = New System.Windows.Forms.Button()
         Me.ft_button_registrar_base_clientes = New System.Windows.Forms.Button()
@@ -482,14 +482,14 @@ Partial Class form_factibilidad
         Me.TextBox14.TabIndex = 17
         Me.TextBox14.Text = "¿REQUIERE ÁREA DE SERVIDUMBRE?"
         '
-        'ft_button_buscar_filtro
+        'ft_button_buscar_filtro_1
         '
-        Me.ft_button_buscar_filtro.Location = New System.Drawing.Point(470, 33)
-        Me.ft_button_buscar_filtro.Name = "ft_button_buscar_filtro"
-        Me.ft_button_buscar_filtro.Size = New System.Drawing.Size(215, 57)
-        Me.ft_button_buscar_filtro.TabIndex = 21
-        Me.ft_button_buscar_filtro.Text = "BUSCAR EN FILTRO"
-        Me.ft_button_buscar_filtro.UseVisualStyleBackColor = True
+        Me.ft_button_buscar_filtro_1.Location = New System.Drawing.Point(470, 33)
+        Me.ft_button_buscar_filtro_1.Name = "ft_button_buscar_filtro_1"
+        Me.ft_button_buscar_filtro_1.Size = New System.Drawing.Size(215, 57)
+        Me.ft_button_buscar_filtro_1.TabIndex = 21
+        Me.ft_button_buscar_filtro_1.Text = "BUSCAR EN FILTRO"
+        Me.ft_button_buscar_filtro_1.UseVisualStyleBackColor = True
         '
         'ft_button_buscar_base_clientes
         '
@@ -537,7 +537,7 @@ Partial Class form_factibilidad
         Me.Controls.Add(Me.ft_button_generar_carta)
         Me.Controls.Add(Me.ft_button_registrar_base_clientes)
         Me.Controls.Add(Me.ft_button_buscar_base_clientes)
-        Me.Controls.Add(Me.ft_button_buscar_filtro)
+        Me.Controls.Add(Me.ft_button_buscar_filtro_1)
         Me.Controls.Add(Me.frame_servidumbre)
         Me.Controls.Add(Me.frame_memo_planeamiento)
         Me.Controls.Add(Me.GroupBox4)
@@ -599,7 +599,7 @@ Partial Class form_factibilidad
     Friend WithEvents frame_servidumbre As GroupBox
     Friend WithEvents ft_area_servidumbre As ComboBox
     Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents ft_button_buscar_filtro As Button
+    Friend WithEvents ft_button_buscar_filtro_1 As Button
     Friend WithEvents ft_button_buscar_base_clientes As Button
     Friend WithEvents ft_button_generar_carta As Button
     Friend WithEvents ft_button_registrar_base_clientes As Button

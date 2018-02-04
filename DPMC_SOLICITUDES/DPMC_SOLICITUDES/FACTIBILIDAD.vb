@@ -388,7 +388,7 @@
 
     End Sub
 
-    Private Sub ft_button_buscar_filtro_Click(sender As Object, e As EventArgs) Handles ft_button_buscar_filtro.Click
+    Private Sub ft_button_buscar_filtro_Click(sender As Object, e As EventArgs) Handles ft_button_buscar_filtro_1.Click
 
     End Sub
 End Class
