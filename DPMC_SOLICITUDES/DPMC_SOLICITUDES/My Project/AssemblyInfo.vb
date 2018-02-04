@@ -2,11 +2,11 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' General Information about an assembly is controlled through the following
-' set of attributes. Change these attribute values to modify the information
-' associated with an assembly.
+' La información general de un ensamblado se controla mediante el siguiente 
+' conjunto de atributos. Cambie estos valores de atributo para modificar la información
+' asociada con un ensamblado.
 
-' Review the values of the assembly attributes
+' Revisar los valores de los atributos del ensamblado
 
 <Assembly: AssemblyTitle("DPMC_SOLICITUDES")>
 <Assembly: AssemblyDescription("")>
@@ -17,18 +17,18 @@ Imports System.Runtime.InteropServices
 
 <Assembly: ComVisible(False)>
 
-'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("10a16e0e-5ef0-4fac-aeb9-2b2937c0970a")>
+'El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
+<Assembly: Guid("0e698ab6-c4e2-4676-b883-517fe34e60b7")>
 
-' Version information for an assembly consists of the following four values:
+' La información de versión de un ensamblado consta de los cuatro valores siguientes:
 '
-'      Major Version
-'      Minor Version
-'      Build Number
-'      Revision
+'      Versión principal
+'      Versión secundaria
+'      Número de compilación
+'      Revisión
 '
-' You can specify all the values or you can default the Build and Revision Numbers
-' by using the '*' as shown below:
+' Puede especificar todos los valores o utilizar los números de compilación y de revisión predeterminados
+' mediante el carácter '*', como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: AssemblyVersion("1.0.0.0")>
