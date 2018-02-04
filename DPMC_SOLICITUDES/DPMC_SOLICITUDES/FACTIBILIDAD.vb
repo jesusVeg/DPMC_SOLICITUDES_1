@@ -3,10 +3,6 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) 
-        ft_fecha.Text = DateTime.Now.ToString("dd/MM/yyyy")
-    End Sub
-
     Private Sub ft_spo_TextChanged(sender As Object, e As EventArgs) Handles ft_spo.TextChanged
         TextBox1.TextAlign = HorizontalAlignment.Center
     End Sub
@@ -47,7 +43,6 @@
         ft_spo.Text = ""
         ft_expediente.Text = ""
         ft_rol.Text = ""
-        ft_fecha.Text = ""
         ft_dirigido_a.Text = ""
         ft_empresa_solicitante.Text = ""
         ft_direccion_de_envio.Text = ""

@@ -464,7 +464,7 @@ Partial Class form_factibilidad
         '
         Me.ft_area_servidumbre.FormattingEnabled = True
         Me.ft_area_servidumbre.Items.AddRange(New Object() {"SI", "NO"})
-        Me.ft_area_servidumbre.Location = New System.Drawing.Point(186, 30)
+        Me.ft_area_servidumbre.Location = New System.Drawing.Point(186, 48)
         Me.ft_area_servidumbre.Name = "ft_area_servidumbre"
         Me.ft_area_servidumbre.Size = New System.Drawing.Size(68, 24)
         Me.ft_area_servidumbre.TabIndex = 15
@@ -475,7 +475,7 @@ Partial Class form_factibilidad
         Me.TextBox14.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(6, 30)
+        Me.TextBox14.Location = New System.Drawing.Point(6, 43)
         Me.TextBox14.Multiline = True
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(157, 38)
@@ -515,7 +515,7 @@ Partial Class form_factibilidad
         Me.ft_button_registrar.Name = "ft_button_registrar"
         Me.ft_button_registrar.Size = New System.Drawing.Size(215, 57)
         Me.ft_button_registrar.TabIndex = 23
-        Me.ft_button_registrar.Text = "REGISTRAR_BASE_CLIENTES"
+        Me.ft_button_registrar.Text = "REGISTRAR EN BASE DE CLIENTES"
         Me.ft_button_registrar.UseVisualStyleBackColor = True
         '
         'ft_button_limpiar
