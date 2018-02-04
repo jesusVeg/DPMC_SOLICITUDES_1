@@ -112,12 +112,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PUNTODEDISEÑO.Designer.vb">
-      <DependentUpon>PUNTODEDISEÑO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PUNTODEDISEÑO.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="RECHAZO.Designer.vb">
       <DependentUpon>RECHAZO.vb</DependentUpon>
     </Compile>
@@ -149,9 +143,6 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PUNTODEDISEÑO.resx">
-      <DependentUpon>PUNTODEDISEÑO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RECHAZO.resx">
       <DependentUpon>RECHAZO.vb</DependentUpon>
