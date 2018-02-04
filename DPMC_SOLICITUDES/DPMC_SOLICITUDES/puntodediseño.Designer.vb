@@ -28,7 +28,7 @@ Partial Class form_puntodediseño
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 253)
+        Me.ClientSize = New System.Drawing.Size(966, 455)
         Me.Name = "form_puntodediseño"
         Me.Text = "PUNTO DE DISEÑO"
         Me.ResumeLayout(False)
