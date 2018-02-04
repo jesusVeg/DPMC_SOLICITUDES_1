@@ -383,4 +383,12 @@
         End If
 
     End Sub
+
+    Private Sub ft_button_registrar_Click(sender As Object, e As EventArgs) Handles ft_button_registrar_base_clientes.Click
+
+    End Sub
+
+    Private Sub ft_button_buscar_filtro_Click(sender As Object, e As EventArgs) Handles ft_button_buscar_filtro.Click
+
+    End Sub
 End Class

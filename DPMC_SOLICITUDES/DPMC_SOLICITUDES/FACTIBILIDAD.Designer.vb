@@ -61,10 +61,10 @@ Partial Class form_factibilidad
         Me.frame_servidumbre = New System.Windows.Forms.GroupBox()
         Me.ft_area_servidumbre = New System.Windows.Forms.ComboBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.ft_button_buscar_filtro = New System.Windows.Forms.Button()
+        Me.ft_button_buscar_base_clientes = New System.Windows.Forms.Button()
         Me.ft_button_generar_carta = New System.Windows.Forms.Button()
-        Me.ft_button_registrar = New System.Windows.Forms.Button()
+        Me.ft_button_registrar_base_clientes = New System.Windows.Forms.Button()
         Me.ft_button_limpiar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -482,23 +482,23 @@ Partial Class form_factibilidad
         Me.TextBox14.TabIndex = 17
         Me.TextBox14.Text = "¿REQUIERE ÁREA DE SERVIDUMBRE?"
         '
-        'Button5
+        'ft_button_buscar_filtro
         '
-        Me.Button5.Location = New System.Drawing.Point(470, 33)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(215, 57)
-        Me.Button5.TabIndex = 21
-        Me.Button5.Text = "BUSCAR EN FILTRO"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.ft_button_buscar_filtro.Location = New System.Drawing.Point(470, 33)
+        Me.ft_button_buscar_filtro.Name = "ft_button_buscar_filtro"
+        Me.ft_button_buscar_filtro.Size = New System.Drawing.Size(215, 57)
+        Me.ft_button_buscar_filtro.TabIndex = 21
+        Me.ft_button_buscar_filtro.Text = "BUSCAR EN FILTRO"
+        Me.ft_button_buscar_filtro.UseVisualStyleBackColor = True
         '
-        'Button6
+        'ft_button_buscar_base_clientes
         '
-        Me.Button6.Location = New System.Drawing.Point(726, 34)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(215, 57)
-        Me.Button6.TabIndex = 22
-        Me.Button6.Text = "BUSCAR EN BASE DE CLIENTES"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.ft_button_buscar_base_clientes.Location = New System.Drawing.Point(726, 34)
+        Me.ft_button_buscar_base_clientes.Name = "ft_button_buscar_base_clientes"
+        Me.ft_button_buscar_base_clientes.Size = New System.Drawing.Size(215, 57)
+        Me.ft_button_buscar_base_clientes.TabIndex = 22
+        Me.ft_button_buscar_base_clientes.Text = "BUSCAR EN BASE DE CLIENTES"
+        Me.ft_button_buscar_base_clientes.UseVisualStyleBackColor = True
         '
         'ft_button_generar_carta
         '
@@ -509,14 +509,14 @@ Partial Class form_factibilidad
         Me.ft_button_generar_carta.Text = "GENERAR CARTA"
         Me.ft_button_generar_carta.UseVisualStyleBackColor = True
         '
-        'ft_button_registrar
+        'ft_button_registrar_base_clientes
         '
-        Me.ft_button_registrar.Location = New System.Drawing.Point(195, 468)
-        Me.ft_button_registrar.Name = "ft_button_registrar"
-        Me.ft_button_registrar.Size = New System.Drawing.Size(215, 57)
-        Me.ft_button_registrar.TabIndex = 23
-        Me.ft_button_registrar.Text = "REGISTRAR EN BASE DE CLIENTES"
-        Me.ft_button_registrar.UseVisualStyleBackColor = True
+        Me.ft_button_registrar_base_clientes.Location = New System.Drawing.Point(195, 468)
+        Me.ft_button_registrar_base_clientes.Name = "ft_button_registrar_base_clientes"
+        Me.ft_button_registrar_base_clientes.Size = New System.Drawing.Size(215, 57)
+        Me.ft_button_registrar_base_clientes.TabIndex = 23
+        Me.ft_button_registrar_base_clientes.Text = "REGISTRAR EN BASE DE CLIENTES"
+        Me.ft_button_registrar_base_clientes.UseVisualStyleBackColor = True
         '
         'ft_button_limpiar
         '
@@ -535,9 +535,9 @@ Partial Class form_factibilidad
         Me.ClientSize = New System.Drawing.Size(1133, 547)
         Me.Controls.Add(Me.ft_button_limpiar)
         Me.Controls.Add(Me.ft_button_generar_carta)
-        Me.Controls.Add(Me.ft_button_registrar)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.ft_button_registrar_base_clientes)
+        Me.Controls.Add(Me.ft_button_buscar_base_clientes)
+        Me.Controls.Add(Me.ft_button_buscar_filtro)
         Me.Controls.Add(Me.frame_servidumbre)
         Me.Controls.Add(Me.frame_memo_planeamiento)
         Me.Controls.Add(Me.GroupBox4)
@@ -599,10 +599,10 @@ Partial Class form_factibilidad
     Friend WithEvents frame_servidumbre As GroupBox
     Friend WithEvents ft_area_servidumbre As ComboBox
     Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents ft_button_buscar_filtro As Button
+    Friend WithEvents ft_button_buscar_base_clientes As Button
     Friend WithEvents ft_button_generar_carta As Button
-    Friend WithEvents ft_button_registrar As Button
+    Friend WithEvents ft_button_registrar_base_clientes As Button
     Friend WithEvents ft_button_limpiar As Button
     Friend WithEvents TextBox1 As TextBox
 End Class
