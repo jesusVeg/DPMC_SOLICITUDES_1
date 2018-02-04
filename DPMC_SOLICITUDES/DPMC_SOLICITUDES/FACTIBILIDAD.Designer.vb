@@ -529,7 +529,7 @@ Partial Class form_factibilidad
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(352, 27)
+        Me.Button5.Location = New System.Drawing.Point(353, 27)
         Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(161, 46)
