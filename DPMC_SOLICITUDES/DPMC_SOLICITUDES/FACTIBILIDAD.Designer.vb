@@ -24,8 +24,6 @@ Partial Class form_factibilidad
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ft_fecha = New System.Windows.Forms.RichTextBox()
-        Me.ft_button_fecha = New System.Windows.Forms.Button()
         Me.ft_expediente = New System.Windows.Forms.RichTextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ft_rol = New System.Windows.Forms.ComboBox()
@@ -89,8 +87,6 @@ Partial Class form_factibilidad
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.ft_fecha)
-        Me.GroupBox1.Controls.Add(Me.ft_button_fecha)
         Me.GroupBox1.Controls.Add(Me.ft_expediente)
         Me.GroupBox1.Controls.Add(Me.TextBox3)
         Me.GroupBox1.Controls.Add(Me.ft_rol)
@@ -99,33 +95,16 @@ Partial Class form_factibilidad
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(465, 105)
+        Me.GroupBox1.Size = New System.Drawing.Size(418, 105)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
-        'ft_fecha
-        '
-        Me.ft_fecha.Location = New System.Drawing.Point(347, 62)
-        Me.ft_fecha.Name = "ft_fecha"
-        Me.ft_fecha.Size = New System.Drawing.Size(100, 29)
-        Me.ft_fecha.TabIndex = 7
-        Me.ft_fecha.Text = ""
-        '
-        'ft_button_fecha
-        '
-        Me.ft_button_fecha.Location = New System.Drawing.Point(174, 59)
-        Me.ft_button_fecha.Name = "ft_button_fecha"
-        Me.ft_button_fecha.Size = New System.Drawing.Size(156, 29)
-        Me.ft_button_fecha.TabIndex = 6
-        Me.ft_button_fecha.Text = "ACTUALIZAR FECHA"
-        Me.ft_button_fecha.UseVisualStyleBackColor = True
-        '
         'ft_expediente
         '
-        Me.ft_expediente.Location = New System.Drawing.Point(347, 18)
+        Me.ft_expediente.Location = New System.Drawing.Point(298, 18)
         Me.ft_expediente.Name = "ft_expediente"
         Me.ft_expediente.Size = New System.Drawing.Size(100, 29)
-        Me.ft_expediente.TabIndex = 5
+        Me.ft_expediente.TabIndex = 2
         Me.ft_expediente.Text = ""
         '
         'TextBox3
@@ -155,7 +134,7 @@ Partial Class form_factibilidad
         Me.ft_spo.Name = "ft_spo"
         Me.ft_spo.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ft_spo.Size = New System.Drawing.Size(100, 29)
-        Me.ft_spo.TabIndex = 5
+        Me.ft_spo.TabIndex = 1
         Me.ft_spo.Text = ""
         '
         'TextBox2
@@ -191,7 +170,7 @@ Partial Class form_factibilidad
         Me.ft_distrito_de_envio.Location = New System.Drawing.Point(194, 138)
         Me.ft_distrito_de_envio.Name = "ft_distrito_de_envio"
         Me.ft_distrito_de_envio.Size = New System.Drawing.Size(250, 24)
-        Me.ft_distrito_de_envio.TabIndex = 16
+        Me.ft_distrito_de_envio.TabIndex = 7
         Me.ft_distrito_de_envio.Text = ""
         '
         'ft_direccion_de_envio
@@ -199,7 +178,7 @@ Partial Class form_factibilidad
         Me.ft_direccion_de_envio.Location = New System.Drawing.Point(194, 104)
         Me.ft_direccion_de_envio.Name = "ft_direccion_de_envio"
         Me.ft_direccion_de_envio.Size = New System.Drawing.Size(250, 24)
-        Me.ft_direccion_de_envio.TabIndex = 10
+        Me.ft_direccion_de_envio.TabIndex = 6
         Me.ft_direccion_de_envio.Text = ""
         '
         'ft_empresa_solicitante
@@ -208,7 +187,7 @@ Partial Class form_factibilidad
         Me.ft_empresa_solicitante.Location = New System.Drawing.Point(194, 68)
         Me.ft_empresa_solicitante.Name = "ft_empresa_solicitante"
         Me.ft_empresa_solicitante.Size = New System.Drawing.Size(250, 24)
-        Me.ft_empresa_solicitante.TabIndex = 15
+        Me.ft_empresa_solicitante.TabIndex = 5
         '
         'ft_dirigido_a
         '
@@ -217,7 +196,7 @@ Partial Class form_factibilidad
         Me.ft_dirigido_a.Location = New System.Drawing.Point(194, 31)
         Me.ft_dirigido_a.Name = "ft_dirigido_a"
         Me.ft_dirigido_a.Size = New System.Drawing.Size(250, 24)
-        Me.ft_dirigido_a.TabIndex = 14
+        Me.ft_dirigido_a.TabIndex = 4
         '
         'TextBox7
         '
@@ -317,14 +296,14 @@ Partial Class form_factibilidad
         Me.ft_provincia_de_obra.Location = New System.Drawing.Point(193, 138)
         Me.ft_provincia_de_obra.Name = "ft_provincia_de_obra"
         Me.ft_provincia_de_obra.Size = New System.Drawing.Size(250, 24)
-        Me.ft_provincia_de_obra.TabIndex = 17
+        Me.ft_provincia_de_obra.TabIndex = 11
         '
         'ft_direccion_de_obra
         '
         Me.ft_direccion_de_obra.Location = New System.Drawing.Point(193, 66)
         Me.ft_direccion_de_obra.Name = "ft_direccion_de_obra"
         Me.ft_direccion_de_obra.Size = New System.Drawing.Size(250, 24)
-        Me.ft_direccion_de_obra.TabIndex = 26
+        Me.ft_direccion_de_obra.TabIndex = 9
         Me.ft_direccion_de_obra.Text = ""
         '
         'ft_cliente
@@ -332,7 +311,7 @@ Partial Class form_factibilidad
         Me.ft_cliente.Location = New System.Drawing.Point(193, 32)
         Me.ft_cliente.Name = "ft_cliente"
         Me.ft_cliente.Size = New System.Drawing.Size(250, 24)
-        Me.ft_cliente.TabIndex = 25
+        Me.ft_cliente.TabIndex = 8
         Me.ft_cliente.Text = ""
         '
         'ft_distrito_de_obra
@@ -340,7 +319,7 @@ Partial Class form_factibilidad
         Me.ft_distrito_de_obra.Location = New System.Drawing.Point(193, 103)
         Me.ft_distrito_de_obra.Name = "ft_distrito_de_obra"
         Me.ft_distrito_de_obra.Size = New System.Drawing.Size(250, 24)
-        Me.ft_distrito_de_obra.TabIndex = 17
+        Me.ft_distrito_de_obra.TabIndex = 10
         Me.ft_distrito_de_obra.Text = ""
         '
         'TextBox11
@@ -405,7 +384,7 @@ Partial Class form_factibilidad
         Me.ft_pot_soli_bt.Location = New System.Drawing.Point(269, 64)
         Me.ft_pot_soli_bt.Name = "ft_pot_soli_bt"
         Me.ft_pot_soli_bt.Size = New System.Drawing.Size(100, 29)
-        Me.ft_pot_soli_bt.TabIndex = 11
+        Me.ft_pot_soli_bt.TabIndex = 13
         Me.ft_pot_soli_bt.Text = ""
         '
         'ft_pot_soli_mt
@@ -413,7 +392,7 @@ Partial Class form_factibilidad
         Me.ft_pot_soli_mt.Location = New System.Drawing.Point(269, 21)
         Me.ft_pot_soli_mt.Name = "ft_pot_soli_mt"
         Me.ft_pot_soli_mt.Size = New System.Drawing.Size(100, 29)
-        Me.ft_pot_soli_mt.TabIndex = 10
+        Me.ft_pot_soli_mt.TabIndex = 12
         Me.ft_pot_soli_mt.Text = ""
         '
         'TextBox13
@@ -454,7 +433,7 @@ Partial Class form_factibilidad
         Me.ft_correlativo.Location = New System.Drawing.Point(265, 43)
         Me.ft_correlativo.Name = "ft_correlativo"
         Me.ft_correlativo.Size = New System.Drawing.Size(100, 29)
-        Me.ft_correlativo.TabIndex = 10
+        Me.ft_correlativo.TabIndex = 14
         Me.ft_correlativo.Text = ""
         '
         'TextBox15
@@ -488,7 +467,7 @@ Partial Class form_factibilidad
         Me.ft_area_servidumbre.Location = New System.Drawing.Point(186, 30)
         Me.ft_area_servidumbre.Name = "ft_area_servidumbre"
         Me.ft_area_servidumbre.Size = New System.Drawing.Size(68, 24)
-        Me.ft_area_servidumbre.TabIndex = 30
+        Me.ft_area_servidumbre.TabIndex = 15
         '
         'TextBox14
         '
@@ -505,7 +484,7 @@ Partial Class form_factibilidad
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(563, 33)
+        Me.Button5.Location = New System.Drawing.Point(470, 33)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(215, 57)
         Me.Button5.TabIndex = 21
@@ -514,7 +493,7 @@ Partial Class form_factibilidad
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(819, 34)
+        Me.Button6.Location = New System.Drawing.Point(726, 34)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(215, 57)
         Me.Button6.TabIndex = 22
@@ -536,7 +515,7 @@ Partial Class form_factibilidad
         Me.ft_button_registrar.Name = "ft_button_registrar"
         Me.ft_button_registrar.Size = New System.Drawing.Size(215, 57)
         Me.ft_button_registrar.TabIndex = 23
-        Me.ft_button_registrar.Text = "REGISTRAR"
+        Me.ft_button_registrar.Text = "REGISTRAR_BASE_CLIENTES"
         Me.ft_button_registrar.UseVisualStyleBackColor = True
         '
         'ft_button_limpiar
@@ -586,8 +565,6 @@ Partial Class form_factibilidad
     Friend WithEvents ft_spo As RichTextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents ft_rol As ComboBox
-    Friend WithEvents ft_fecha As RichTextBox
-    Friend WithEvents ft_button_fecha As Button
     Friend WithEvents ft_expediente As RichTextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents GroupBox2 As GroupBox

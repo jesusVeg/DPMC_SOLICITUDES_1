@@ -3,7 +3,7 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ft_button_fecha.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) 
         ft_fecha.Text = DateTime.Now.ToString("dd/MM/yyyy")
     End Sub
 
