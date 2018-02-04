@@ -388,4 +388,8 @@
         End If
 
     End Sub
+
+    Private Sub ft_button_registrar_Click(sender As Object, e As EventArgs) Handles ft_button_registrar.Click
+
+    End Sub
 End Class
